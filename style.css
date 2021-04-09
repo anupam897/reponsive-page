@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bgimg{
+	background-image: url('image/image1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 720px;
+
+}
+
+.SET{
+	padding-top: 240px;
+}
+
+.SET h2{
+	font-size: 40px;
+}
+.SET h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.services{
+	padding:50px 10px 40px;
+	/*height: 700px;*/
+}
+
+.services h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.rowsetting{
+	padding: 50px 0px;
+
+}
+.rowsetting h2{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.rowsetting p{
+	padding:10px;
+
+}
+
+.Icon{
+  border-radius:50%;
+  width: 100px;
+  height: 100px;
+
+}
+.fa-shopping-cart{
+	margin-top: 25px;
+}
+.fa-desktop{
+margin-top: 25px;
+}
+.fa-lock{
+	margin-top: 25px;
+}
+.port{
+	width: 100%;
+	height: 600px;
+	padding:50px 0px 40px;
+
+}
+.port h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 30px;
+}
+
+.team{
+	height: 550px;
+	padding:40px 0px 50px;
+}
+.team h1{
+font-size: 40px;
+font-weight: bold;
+}
+.teamsetting{
+	margin-top: 60px;
+}
+.footer{
+	height: 50px;
+
+}
+
+.footer h6{
+	line-height: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .team{
+height: 1100px;
+}
+
+.port{
+	height: 1700px;
+}
+
+}
+@media screen and (max-width: 479px) {
+
+	.SET h2{
+	font-size: 36px;
+}
+.SET h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+    .team{
+height: 1150px;
+}
+
+.port{
+	height: 1200px;
+}
+
+}
